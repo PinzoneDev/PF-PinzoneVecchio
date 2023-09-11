@@ -1,0 +1,56 @@
+// Definir colores personalizados
+$shared-color: #d7b899; /* Color compartido para header y footer */
+$text-color: #fff; /* Cambio de color a blanco */
+$background-color: #d7ccc8;
+$page-background-color: #d7b899;
+
+// Utilizar el mismo color compartido para header y footer
+$primary-color: $shared-color;
+
+// Personalizar estilos
+$body-bg: $page-background-color;
+$body-color: $text-color;
+
+.navbar {
+  background-color: $primary-color;
+  .navbar-brand {
+    color: white; /* Cambio de color a blanco */
+  }
+  .nav-link {
+    color: white; /* Cambio de color a blanco */
+    &:hover {
+      color: $shared-color;
+    }
+  }
+}
+
+.container {
+  padding: 20px;
+  background-color: $background-color;
+
+  .image-frame {
+    display: inline-block;
+    padding: 10px;
+    border: 5px solid #d7ccc8;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
+
+h1, h2, h3 {
+  color: $primary-color;
+}
+
+p {
+  color: $text-color;
+}
+
+// Estilos para el footer
+footer {
+  h4, p, .list-inline-item {
+    color: white;
+  }
+}
+
+// Más estilos personalizados aquí
+

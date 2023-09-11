@@ -1,0 +1,40 @@
+/* Color compartido para header y footer */
+/* Cambio de color a blanco */
+.navbar {
+  background-color: #d7b899;
+}
+.navbar .navbar-brand {
+  color: white; /* Cambio de color a blanco */
+}
+.navbar .nav-link {
+  color: white; /* Cambio de color a blanco */
+}
+.navbar .nav-link:hover {
+  color: #d7b899;
+}
+
+.container {
+  padding: 20px;
+  background-color: #d7ccc8;
+}
+.container .image-frame {
+  display: inline-block;
+  padding: 10px;
+  border: 5px solid #d7ccc8;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+  color: #d7b899;
+}
+
+p {
+  color: #fff;
+}
+
+footer h4, footer p, footer .list-inline-item {
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
