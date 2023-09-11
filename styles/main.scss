@@ -1,23 +1,21 @@
-// Definir colores personalizados
-$shared-color: #d7b899; /* Color compartido para header y footer */
-$text-color: #fff; /* Cambio de color a blanco */
+$shared-color: #d7b899; 
+$text-color: #fff; 
 $background-color: #d7ccc8;
 $page-background-color: #d7b899;
 
-// Utilizar el mismo color compartido para header y footer
+
 $primary-color: $shared-color;
 
-// Personalizar estilos
 $body-bg: $page-background-color;
 $body-color: $text-color;
 
 .navbar {
   background-color: $primary-color;
   .navbar-brand {
-    color: white; /* Cambio de color a blanco */
+    color: white; 
   }
   .nav-link {
-    color: white; /* Cambio de color a blanco */
+    color: white; 
     &:hover {
       color: $shared-color;
     }
@@ -45,12 +43,10 @@ p {
   color: $text-color;
 }
 
-// Estilos para el footer
 footer {
   h4, p, .list-inline-item {
     color: white;
   }
 }
 
-// Más estilos personalizados aquí
 

@@ -1,13 +1,11 @@
-/* Color compartido para header y footer */
-/* Cambio de color a blanco */
 .navbar {
   background-color: #d7b899;
 }
 .navbar .navbar-brand {
-  color: white; /* Cambio de color a blanco */
+  color: white;
 }
 .navbar .nav-link {
-  color: white; /* Cambio de color a blanco */
+  color: white; 
 }
 .navbar .nav-link:hover {
   color: #d7b899;
@@ -37,4 +35,3 @@ footer h4, footer p, footer .list-inline-item {
   color: white;
 }
 
-/*# sourceMappingURL=main.css.map */
